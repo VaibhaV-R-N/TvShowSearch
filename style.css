@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 400;
+    /* font-family: 'Bungee Spice', cursive; */
+
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.nav {
+    font-family: 'Bungee Spice', cursive;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    background-image: url(https://initiate.alphacoders.com/images/385/cropped-1366-100-385616.jpg?2480);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-container {
+
+    font-family: 'Bungee Spice', cursive;
+    display: inline-block;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+input {
+    font-family: 'Bungee Spice', cursive;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+button {
+    font-family: 'Fredoka One', cursive;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(135deg, red, blue);
+    transition: 2sec;
+}
+
+button:hover {
+
+    background: linear-gradient(135deg, blue, red);
+}
+
+.result-container {
+    font-family: 'Fredoka One', cursive;
+    margin: auto;
+    width: 90%;
+    color: white
+}
+
+td {
+    padding: 50px;
+
+}
+
+td:hover {
+    transform: scale(1.2);
+}
+
+tr {
+    transition: 1s;
+}
+
+
+.tableh {
+    background: linear-gradient(135deg, red, blue)
+}
